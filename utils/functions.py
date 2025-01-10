@@ -13,17 +13,15 @@ def map_air_quality(value):
             return 3
         elif value == "Hazardous":
             return 4
-        else:
-            return 0
     except Exception as e:
         print(f"Error mapping value: {value}. Error: {e}")
         return 0
 
 
-def save_trained_model(model, model_name):
+def save_trained_model(model, model_name, model_type):
     try:
-        model_path = os.path.join(models_save_directory, f"{model_name}.pkl")
+        model_path = os.path.join(models_save_directory, f"{model_name}.{model_type}")
         joblib.dump(model, model_path)
         print("Model saved successfully!")
     except Exception as e:
-        print(f"Error saving model {model_name}. Error: {e}")
+        print(f"Error saving model {model_name}.{model_type} Error: {e}")
