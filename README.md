@@ -21,5 +21,5 @@
 
 ## Setup Project
 
-`source path/to/venv/bin/activate`
-`pip install -r requirements.txt`
+`source path/to/venv/bin/activate` <br>
+`pip install -r requirements.txt` <br>
