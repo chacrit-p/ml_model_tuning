@@ -19,7 +19,12 @@
 - **Poor**: Noticeable pollution that may cause health issues for sensitive groups.
 - **Hazardous**: Highly polluted air posing serious health risks to the population.
 
-## Setup Project
+## ต้องการ
 
-`source path/to/venv/bin/activate` <br>
+- **Python 3.13.1**
+
+## ติดตั้ง Project
+
+`source venv/bin/activate` <br>
 `pip install -r requirements.txt` <br>
+`python3 app.py`
