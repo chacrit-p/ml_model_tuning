@@ -18,3 +18,8 @@
 - **Moderate**: Acceptable air quality but with some pollutants present.
 - **Poor**: Noticeable pollution that may cause health issues for sensitive groups.
 - **Hazardous**: Highly polluted air posing serious health risks to the population.
+
+## Setup Project
+
+`source path/to/venv/bin/activate`
+`pip install -r requirements.txt`
